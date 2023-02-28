@@ -7,11 +7,11 @@ struct PhanSo {
     int tuSo;
     int mauSo;
 };
+typedef PhanSo PhanSo;
 
 void nhapPhanSo(PhanSo &ps) {
     cout << " Nhap tu so: ";
     cin >> ps.tuSo;
-    cin.ignore();
     cout << "Nhap mau so: ";
     while (true) {
         cin >> ps.mauSo;
