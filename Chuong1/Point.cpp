@@ -8,7 +8,7 @@ struct Point {
 typedef Point POINT;
 
 void nhapDiem(POINT &p) {
-    cout << " Nhap x: ";
+    cout << "Nhap x: ";
     cin >> p.x;
     cout << "Nhap y: ";
     cin >> p.y;
